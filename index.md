@@ -11,10 +11,10 @@ layout: home
 **Discussion Session II:** Wednesdays, 3:35pm -- 4:25pm<br>
 **Location:** CDS 1526
 
-**Instructor:** Thomas Gardos
-* Office: CDS 1623
-* Office Hours: Fridays, 1:30 -- 3:30pm on Zoom (see Piazza) and on demand. E-mail for appointment.
-* email: tgardos \<at\> bu \<dot\> edu
+**Instructor:** Jeffrey Considine
+* Office: CDS 1625
+* Office Hours: TBD
+* email: jconsidi \<at\> bu \<dot\> edu
 
 **Teaching Assistant:** Xavier Thomas
 * Office Hours: Mondays, 3:00pm -- 5:00pm

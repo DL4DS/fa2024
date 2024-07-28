@@ -1,8 +1,8 @@
 instructors:
-  - name: Thomas Gardos
-    profile_pic: /_images/pp/gardos.jpg
-    webpage: https://www.bu.edu/cds-faculty/profile/thomas-gardos/
-    email: tgardos@bu.edu
+  - name: Jeffrey Considine
+    profile_pic: /_images/pp/considine.png
+    webpage: https://www.bu.edu/cds-faculty/profile/jeffrey-considine/
+    email: jconsidi@bu.edu
 
 teaching_assistants:
   - name: Xavier Thomas
