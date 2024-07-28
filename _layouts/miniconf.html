@@ -1,0 +1,76 @@
+---
+layout: default
+---
+
+{{ page.content | markdownify }}
+
+<!-- You can uncomment to add pictures of the students
+<div>
+    <img src="{{ site.baseurl }}/_images/students1.jpeg" alt="Students Group 1" style="width: 40%; height: auto;">
+    <img src="{{ site.baseurl }}/_images/students2.jpeg" alt="Students Group 2" style="width: 40%; height: auto;">
+</div>
+-->
+
+<!-- Insert vertical space here -->
+<div style="height: 20px;"></div>
+
+<div>
+    <label for="tag-filter">Filter by Tag:</label>
+    <select id="tag-filter" onchange="filterPapers()">
+        <option value="">All Tags</option>
+        {% assign all_tags = "" %}
+        {% for project in site.projects %}
+            {% for tag in project.tags %}
+                {% unless all_tags contains tag %}
+                    {% capture all_tags %}{{ all_tags | append: tag | append: "," }}{% endcapture %}
+                {% endunless %}
+            {% endfor %}
+        {% endfor %}
+        {% assign all_tags_array = all_tags | split: "," | sort %}
+        {% for tag in all_tags_array %}
+            {% unless tag == "" %}
+                <option value="{{ tag }}">{{ tag }}</option>
+            {% endunless %}
+        {% endfor %}
+    </select>
+</div>
+
+<div class="papers-container">
+
+{% for project in site.projects %}
+<div class="paper-tile" data-tags="{{ project.tags | join: ',' }}">
+    <h2>{{ project.title }}</h2>
+    <p><i>{{ project.authors | join: ", " }}</i></p>
+    <p>{{ project.content | markdownify }}</p>
+    <ul>
+        {% if project.paper_url %}
+        <li><a href="{{ project.paper_url | prepend: site.baseurl}}">Read Paper</a></li>
+        {% endif %}
+        {% if project.video_url %}
+        <li><a href="{{ project.video_url }}">Watch Video</a> (BU Community accessible only)</li>
+        {% endif %}
+        {% if project.slides_url %}
+        <li><a href="{{ project.slides_url | prepend: site.baseurl}}">View Slides</a></li>
+        {% endif %}
+    </ul>
+    <p><strong>Tags:</strong> {{ project.tags | join: ", " }}</p>
+</div>
+{% endfor %}
+
+</div>
+
+<script>
+    function filterPapers() {
+        var selectedTag = document.getElementById('tag-filter').value;
+        var papers = document.querySelectorAll('.paper-tile');
+
+        papers.forEach(paper => {
+            var tags = paper.getAttribute('data-tags').split(',');
+            if (selectedTag === "" || tags.includes(selectedTag)) {
+                paper.style.display = '';
+            } else {
+                paper.style.display = 'none';
+            }
+        });
+    }
+</script>

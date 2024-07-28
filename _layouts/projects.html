@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<div>
+    <label for="tag-filter">Filter by Tag:</label>
+    <select id="tag-filter" onchange="filterPapers()">
+        <option value="">All Tags</option>
+        {% assign all_tags = "" %}
+        {% for paper in site.data.papers %}
+            {% for tag in paper.tags %}
+                {% unless all_tags contains tag %}
+                    {% capture all_tags %}{{ all_tags | append: tag | append: "," }}{% endcapture %}
+                {% endunless %}
+            {% endfor %}
+        {% endfor %}
+        {% for tag in all_tags | split: "," | sort %}
+            <option value="{{ tag }}">{{ tag }}</option>
+        {% endfor %}
+    </select>
+</div>
+
+<div class="papers-container">
+    {% for paper in site.data.papers %}
+        <div class="paper-tile" data-tags="{{ paper.tags | join: ',' }}">
+            <h2>{{ paper.title }}</h2>
+            <p><strong>Author:</strong> {{ paper.author }}</p>
+            <p><strong>Abstract:</strong> {{ paper.abstract }}</p>
+            <p><a href="{{ paper.paper_url }}">Read Paper</a></p>
+            <p><a href="{{ paper.video_url }}">Watch Lecture</a></p>
+            <p><a href="{{ paper.slides_url }}">View Slides</a></p>
+            <p><strong>Tags:</strong> {{ paper.tags | join: ", " }}</p>
+        </div>
+    {% endfor %}
+</div>
+
+<script>
+    function filterPapers() {
+        var selectedTag = document.getElementById('tag-filter').value;
+        var papers = document.querySelectorAll('.paper-tile');
+
+        papers.forEach(paper => {
+            var tags = paper.getAttribute('data-tags').split(',');
+            if (selectedTag === "" || tags.includes(selectedTag)) {
+                paper.style.display = '';
+            } else {
+                paper.style.display = 'none';
+            }
+        });
+    }
+</script>

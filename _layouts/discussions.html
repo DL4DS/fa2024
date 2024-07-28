@@ -1,0 +1,37 @@
+---
+layout: page
+---
+
+{{ content }}
+
+<ul id="archive">
+{% for discussion in site.discussions %}
+<li class="archiveposturl" style="background: transparent">
+<div class="discussion-container">
+    {% if discussion.thumbnail %}
+    <div class="thumbnail">
+      <div class="center-cropped" style="margin-top:5px;margin-bottom:5px;background-image: url('{{ discussion.thumbnail | prepend: site.baseurl }}');">
+        <img src="{{ discussion.thumbnail | prepend: site.baseurl }}"/>
+      </div>
+    </div>
+    {% endif %}
+    <div class="content">
+        <span style="font-weight: bold;">{{ discussion.title }}</span><br>
+
+        <strong>tl;dr:</strong> {{ discussion.tldr }}
+        <br/>
+        <strong>
+        {% include discussion_links.html discussion=discussion %}
+        </strong>
+
+        {% if discussion.content != '' %}
+        <br/>
+        <div class="markdown-content" style="margin-top: 3px;">
+        {{ discussion.content }}
+        </div>
+        {% endif %}
+    </div>
+</div>
+</li>
+{% endfor %}
+</ul>

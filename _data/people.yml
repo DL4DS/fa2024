@@ -1,0 +1,14 @@
+instructors:
+  - name: Thomas Gardos
+    profile_pic: /_images/pp/gardos.jpg
+    webpage: https://www.bu.edu/cds-faculty/profile/thomas-gardos/
+    email: tgardos@bu.edu
+
+teaching_assistants:
+  - name: Xavier Thomas
+    profile_pic: /_images/pp/xavier.jpg
+    webpage: https://xavierohan.github.io
+    email: xthomas@bu.edu
+  - name: The AI Terrier Tutor (ChatGPT Subscription Required)
+    profile_pic: /_images/pp/Terrier_Logo.png
+    webpage: https://chat.openai.com/g/g-GcuPjBlNb-dl4ds-terrier-tutor
