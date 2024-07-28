@@ -20,7 +20,7 @@ course_name: Deep Learning for Data Science (DL4DS)
 course_description: "In this course we will dive into Deep Learning. We'll balance important theoretical concepts with hands on network training and applications using modern deep learning python frameworks. We'll explore numerous network architectures like CNNs, transformers, and the rapidly developing state-of-the-art of large pre-trained foundation models. You'll have the chance to apply what you've learned in a final project."
 
 # replace with your course semester and year, e.g. "Spring 2024"
-course_semester: "Semester YEAR"
+course_semester: "Fall 2024"
 
 # replace with 2 letter semester abbreviation and year, e.g. "sp2024"
 baseurl: "/fa2024" # the subpath of your site, e.g. /blog/
@@ -35,7 +35,7 @@ schoolurl: "https://www.bu.edu/cds-faculty/"
 # twitter_username: trgardos 
 # google_scholar_id: tY3MyCgAAAAJ
 # linkedin_username: thomas-gardos
-github_repo: https://github.com/DL4DS/dl4ds_website_template
+github_repo: https://github.com/DL4DS/fa2024
 
 address: |
     Boston, MA
