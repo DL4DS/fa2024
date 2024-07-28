@@ -23,7 +23,7 @@ course_description: "In this course we will dive into Deep Learning. We'll balan
 course_semester: "Semester YEAR"
 
 # replace with 2 letter semester abbreviation and year, e.g. "sp2024"
-baseurl: "/dl4ds_website_template" # the subpath of your site, e.g. /blog/
+baseurl: "/fa2024" # the subpath of your site, e.g. /blog/
 
 # Do not edit unless you are posting to some other github pages site
 url: "http://dl4ds.github.io" # the base hostname & protocol for your site
