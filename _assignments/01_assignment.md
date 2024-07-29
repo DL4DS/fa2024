@@ -1,6 +1,6 @@
 ---
 type: assignment
-date: 2024-01-23T15:30:00-5:00
+date: 2024-11-23T15:30:00-5:00
 title: 'PS2 -- Supervised Learning'
 pdf: /static_files/assignments/ps2.pdf
 latex: /static_files/assignments/ps2.tex
