@@ -14,6 +14,9 @@ title: page.title
     <span style="font-weight: bold">Due Date: {{ page.due | date: site.dateformat }} {{ page.due_event.date | date: site.dateformat }}</span>
     {% endif %}
     <p style="font-weight: bold">Download
+      {% if page.notebook %}
+      [<a href="{{ page.notebook }}">Notebook (ipynb)</a>]
+      {% endif %}
       {% if page.pdf %}
       [<a href="{{ page.pdf | prepend: site.baseurl }}">Problem Set (PDF)</a>]
       {% endif %}
