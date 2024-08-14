@@ -2,24 +2,16 @@
 layout: home
 ---
 
-**Lectures:** Tuesdays and Thursdays, 3:30pm -- 4:45pm<br>
-**Location:** CAS 208
-
-**Discussion Session I:** Wednesdays, 11:15am -- 12:05pm<br>
-**Location:** CDS 164
-
-**Discussion Session II:** Wednesdays, 3:35pm -- 4:25pm<br>
-**Location:** CDS 1526
-
-**Instructor:** Jeffrey Considine
-* Office: CDS 1625
-* Office Hours: TBD
-* email: jconsidi \<at\> bu \<dot\> edu
-
-**Teaching Assistant:** Xavier Thomas
-* Office Hours: Mondays, 3:00pm -- 5:00pm
-* Office Hours Location: CDS, 16th Floor
-* email: xthomas \<at\> bu \<dot\> edu
+* **Lectures:** Mondays and Wednesdays, 12:20pm -- 2:05pm, EPC 209
+* **Discussions:** Mondays, 3:35pm -- 4:25pm, CAS 313
+* **Instructor:** Jeffrey Considine
+  * Office: CDS 1625
+  * Office Hours: TBD
+  * email: jconsidi \<at\> bu \<dot\> edu
+* **Teaching Assistant:** Xavier Thomas
+  * Office Hours: Mondays, TBD
+  * Office Hours Location: CDS, 16th Floor
+  * email: xthomas \<at\> bu \<dot\> edu
 
 ## Course Description
 
