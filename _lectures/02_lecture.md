@@ -1,7 +1,7 @@
 ---
 type: lecture
 date: 2024-09-09
-title: 02 - Supervised Learning and Projects
+title: Supervised Learning and Projects
 thumbnail: /_images/thumbnails/ds542-lecture-02.png
 hide_from_announcments: true
 links: 
