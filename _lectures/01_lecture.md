@@ -13,6 +13,6 @@ links:
     - url: https://github.com/DL4DS/sp2024_notebooks/blob/main/release/nbs01/1_1_BackgroundMathematics.ipynb
       name: Jupyter Notebook
 ---
-**Suggested Readings:**
+**Readings:**
 - UDL Chapter 1
 
