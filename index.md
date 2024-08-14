@@ -66,10 +66,9 @@ Students are of course free to use their own personal computer, but you will als
 
 ## Learning Management Software
 
-To be added.
-* Piazza
-* Gradescope
-* Blackboard
+* [Piazza](https://piazza.com/bu/fall2024/ds542)
+* [Gradescope](https://www.gradescope.com/courses/814163) Entry code: 7EDYDN
+* [Lecture Feedback](https://docs.google.com/forms/d/e/1FAIpQLSdWLoJ3n1CkVMNwkk2XQSxq99oZoq7ynYjcJztIozyvOPYIvg/viewform?usp=sf_link)
 
 ## Course Requirements
 - Homework: For the 1st half of the class we'll assign
