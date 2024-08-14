@@ -1,6 +1,6 @@
 ---
 type: discussion
-date: 2024-01-31W11:15:00-12:05&&15:35:00-16:25
+date: 2024-09-16T15:35-0500
 title: Discussion_02 - Autograd, and Computational Graphs in Pytorch. Intro to Model Building in Pytorch.
 tldr: "Fundamentals of Autograd and Computational Graphs in Pytorch. Introduction to Defining a Neural Network in Pytorch (Basics)"
 thumbnail: /_images/thumbnails/ds598-disc-02.png
