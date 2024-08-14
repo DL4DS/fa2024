@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 2024-01-18T15:30:00-5:00
+date: 2024-09-04
 title: 01 - Intro to Deep Learning and Course Logistics
 tldr: "We will introduce the topic of deep learning, a bit about it's history,
 and what impact it has had. Then we'll go over the course logistics, the 
@@ -13,9 +13,6 @@ links:
     - url: https://github.com/DL4DS/sp2024_notebooks/blob/main/release/nbs01/1_1_BackgroundMathematics.ipynb
       name: Jupyter Notebook
 ---
-Unfortunately the recording failed for this lecture. Will re-record it at some
-point.
-
 **Suggested Readings:**
 - UDL Chapter 1
 
