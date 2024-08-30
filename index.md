@@ -9,7 +9,7 @@ layout: home
   * Office Hours: Tuesdays 11:00am -- 12:00pm, Wednesday 3:00pm -- 4:00pm, Thursday 1:00pm -- 2:00pm
   * email: jconsidi \<at\> bu \<dot\> edu
 * **Teaching Assistant:** Xavier Thomas
-  * Office Hours: Mondays, TBD
+  * Office Hours: Fridays 3:00pm -- 5:00pm
   * Office Hours Location: CDS, 16th Floor
   * email: xthomas \<at\> bu \<dot\> edu
 
