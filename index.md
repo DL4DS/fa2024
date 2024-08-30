@@ -6,7 +6,7 @@ layout: home
 * **Discussions:** Mondays, 3:35pm -- 4:25pm, CAS 313
 * **Instructor:** Jeffrey Considine
   * Office: CDS 1625
-  * Office Hours: Tuesdays 1-2pm, Wednesdays 3-4pm, Thursdays 2-3pm
+  * Office Hours: Tuesdays 11:00am -- 12:00pm, Wednesday 3:00pm -- 4:00pm, Thursday 1:00pm -- 2:00pm
   * email: jconsidi \<at\> bu \<dot\> edu
 * **Teaching Assistant:** Xavier Thomas
   * Office Hours: Mondays, TBD
