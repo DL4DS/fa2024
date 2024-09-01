@@ -47,9 +47,8 @@ Math Proficiency – In order to understand the foundational concepts, it is imp
 ## Reference Material
 
 The primary textbook for this course will be 
-[Understanding Deep Learning](https://udlbook.github.io/udlbook/), by Simon Prince . 
-The book is available online as a preprint and should be available in print from 
-MIT Press in early 2024.
+[Understanding Deep Learning](https://udlbook.github.io/udlbook/), by Simon Prince. 
+The book is available online and in print.
 
 We’ll also reference 
 [Introduction to Linear Algebra, Sixth Edition (2023)](https://math.mit.edu/~gs/linearalgebra/ila6/indexila6.html), by Gilbert Strang.
