@@ -85,9 +85,7 @@ Students are of course free to use their own personal computer, but you will als
 - Final Project: 45%
 - Mid-term Project/Competition: 25%
 - Jupyter Notebooks: 15%
-- Homeworks: 10%
-- Class Participation/Attendance: 5%
-
+- Homeworks: 15%
 
 ## Final Project
 See the [Project]({{ site.baseurl }}{% link project.md %}) page for more
