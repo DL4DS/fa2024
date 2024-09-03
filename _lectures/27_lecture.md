@@ -1,10 +1,8 @@
 ---
 type: lecture
 date: 2024-12-09
-title: Project Presentations
+title: Final Project Presentations
 thumbnail: /_images/thumbnails/ds542-lecture-02.png
 hide_from_announcments: true
 ---
-**Readings:**
-- n/a
-
+Students will present their final projects.

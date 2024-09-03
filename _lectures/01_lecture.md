@@ -11,5 +11,4 @@ links:
       name: slides
 ---
 **Readings:**
-- UDL Chapter 1
-
+- Understanding Deep Learning, Chapter 1
