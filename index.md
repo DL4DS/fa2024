@@ -81,10 +81,9 @@ Students are of course free to use their own personal computer, but you will als
 
 ## Course Assessment
 
-- Final Project: 45%
-- Mid-term Project/Competition: 25%
-- Jupyter Notebooks: 15%
-- Homeworks: 15%
+- Final Project: 50%
+- Mid-term Project/Competition: 20%
+- Homeworks: 30% (includes Notebooks and Problem Sets)
 
 ## Final Project
 See the [Project]({{ site.baseurl }}{% link project.md %}) page for more
