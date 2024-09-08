@@ -7,5 +7,5 @@ hide_from_announcments: true
 links: []
 ---
 **Readings:**
-- UDL Chapter 3
+- Understanding Deep Learning, Chapter 3
 

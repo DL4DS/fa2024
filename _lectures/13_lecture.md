@@ -1,11 +1,9 @@
 ---
 type: lecture
 date: 2024-10-16
-title: TBD
+title: Midterm starts
 thumbnail: /_images/thumbnails/ds542-lecture-13.png
 hide_from_announcments: true
 links: []
 ---
-**Readings:**
-- TBD
-
+Please bring a laptop that you can work on.

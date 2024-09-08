@@ -1,11 +1,10 @@
 ---
 type: lecture
 date: 2024-11-18
-title: TBD
+title: Variational Autoencoders
 thumbnail: /_images/thumbnails/ds542-lecture-02.png
 hide_from_announcments: true
 links: []
 ---
 **Readings:**
-- TBD
-
+- Understanding Deep Learning, Chapter 17

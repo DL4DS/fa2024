@@ -6,10 +6,10 @@ layout: home
 * **Discussions:** Mondays, 3:35pm -- 4:25pm, CAS 313
 * **Instructor:** Jeffrey Considine
   * Office: CDS 1625
-  * Office Hours: Tuesdays 11:00am -- 12:00pm, Wednesday 3:00pm -- 4:00pm, Thursday 1:00pm -- 2:00pm
+  * Office Hours: Tuesdays 11:00am -- 12:00pm, Wednesday 11:00am -- 12:00pm, Thursday 1:00pm -- 2:00pm
   * email: jconsidi \<at\> bu \<dot\> edu
 * **Teaching Assistant:** Xavier Thomas
-  * Office Hours: Mondays, TBD
+  * Office Hours: Fridays 3:00pm -- 5:00pm
   * Office Hours Location: CDS, 16th Floor
   * email: xthomas \<at\> bu \<dot\> edu
 
@@ -47,9 +47,8 @@ Math Proficiency – In order to understand the foundational concepts, it is imp
 ## Reference Material
 
 The primary textbook for this course will be 
-[Understanding Deep Learning](https://udlbook.github.io/udlbook/), by Simon Prince . 
-The book is available online as a preprint and should be available in print from 
-MIT Press in early 2024.
+[Understanding Deep Learning](https://udlbook.github.io/udlbook/), by Simon Prince. 
+The book is available online and in print.
 
 We’ll also reference 
 [Introduction to Linear Algebra, Sixth Edition (2023)](https://math.mit.edu/~gs/linearalgebra/ila6/indexila6.html), by Gilbert Strang.
@@ -82,12 +81,9 @@ Students are of course free to use their own personal computer, but you will als
 
 ## Course Assessment
 
-- Final Project: 45%
-- Mid-term Project/Competition: 25%
-- Jupyter Notebooks: 15%
-- Homeworks: 10%
-- Class Participation/Attendance: 5%
-
+- Final Project: 50%
+- Mid-term Project/Competition: 20%
+- Homeworks: 30% (includes Notebooks and Problem Sets)
 
 ## Final Project
 See the [Project]({{ site.baseurl }}{% link project.md %}) page for more

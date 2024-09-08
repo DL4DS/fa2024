@@ -6,7 +6,7 @@ notebook: https://github.com/DL4DS/fa2024/blob/main/static_files/assignments/01_
 hide_from_announcments: true
 due_event: 
     type: due
-    date: 2024-09-09T23:59:00-5:00
+    date: 2024-09-11T23:59:00-5:00
     description: 'Notebook 1 due'
 ---
 Notebook 1 -- Background Mathematics. Turn in on GradeScope.
