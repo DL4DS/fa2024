@@ -7,7 +7,7 @@ and what impact it has had. Then we'll go over the homeworks, exams, and other c
 thumbnail: /_images/thumbnails/ds542-lecture-01.png
 hide_from_announcments: true
 links: 
-    - url: /static_files/presentations/01_lecture.pdf
+    - url: /static_files/lectures/01_introduction.pdf
       name: slides
 ---
 **Readings:**
