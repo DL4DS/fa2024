@@ -1,7 +1,9 @@
 ---
 type: assignment
 date: 2024-09-09T15:00-0500
-title: Problem Set 2
+title: Problem Set 2 -- Supervised Learning
+pdf: /static_files/assignments/ps2.pdf
+latex: /static_files/assignments/ps2.tex
 hide_from_announcments: true
 due_event: 
     type: due
