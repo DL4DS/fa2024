@@ -1,0 +1,88 @@
+\documentclass[11pt, oneside]{article}   	% use "amsart" instead of "article" for AMSLaTeX format
+\usepackage{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   		% ... or a4paper or a5paper or ... 
+%\geometry{landscape}                		% Activate for rotated page geometry
+\usepackage[parfill]{parskip}    	% Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
+								% TeX will automatically convert eps --> pdf in pdflatex		
+\usepackage{amssymb}
+\usepackage{amsmath}
+
+%SetFonts
+
+%SetFonts
+
+
+\title{Problem Set 3 -- Shallow Networks}
+\author{DS 542 -- DL4DS}
+\date{Fall 2024}
+
+\begin{document}
+%\vspace*{-20pt}
+\maketitle
+
+Figures and equations referenced are in the book Understanding Deep Learning.
+
+\textbf{Problem 3.1} 
+What kind of mapping from input to output would be created if the activation
+function in equation 3.1 was linear so that \(a[z] = \psi_0 + \psi_1 z\)?
+
+\vspace{1cm}
+
+\textbf{Problem 3.2} For each of the four linear regions in figure 3.3j, 
+indicate which hidden units are inactive and which are active (i.e., which do
+and do not clip their inputs).
+
+\vspace{1cm}
+
+\textbf{Problem 3.3} Prove that the following property holds for
+\(\alpha \in \Re^+\):
+
+\[\mathrm{ReLU}[\alpha \cdot z] = \alpha \cdot \mathrm{ReLU[z]}.\]
+
+This is known as the non-negative homogeneity property of the ReLU function.
+
+\vspace{1cm}
+
+\textbf{Problem 3.4} (a) Following on from problem 3.3, what happens to the
+shallow network defined in equations 3.3 and 3.4 when we multiply the
+parameters \(\theta_{10}\) and \(\theta_{11}\) by a positive constant
+\(\alpha\) and divide the slope \(\phi_1\) by the same parameter
+\(\alpha\)? (b) What happens if \(\alpha\) is negative?
+
+\vspace{1cm}
+
+\textbf{Problem 3.5} Consider fitting the model in equation 3.1 using a
+least squares loss function. Does this loss function have a unique minimum?
+i.e., is there is a single “best” set of parameters?
+
+\textit{Hint:} You don't need any math to answer. You can reason from the 
+result in the previous problem.
+
+\vspace{1cm}
+
+\textbf{Problem 3.6} Write out the equations that define the network in
+figure 3.11. There should be three equations to compute the three hidden
+units from the inputs and two equations to compute the outputs from the
+hidden units.
+
+\vspace{1cm}
+
+\textbf{Problem 3.7} Equations 3.11 and 3.12 define a general neural network
+with \(D_i\) inputs, one hidden layer containing \(D\) hidden units, and
+\(D_o\) outputs. Find an expression for the number of parameters in the
+model in terms of \(D_i\), \(D\), and \(D_o\).
+
+\vspace{1cm}
+
+\textbf{Problem 3.8} \textit{Optional for Extra Credit.} 
+Show that the maximum number of regions created by a shallow network 
+with \(D_i = 2\) dimensional input, \(D_o = 1\) dimensional output, 
+and \(D = 3\) hidden units is seven as in figure 3.8j. Use the result of 
+Zaslavsky(1975) that the maximum number of regions created by 
+partitioning a \(D_i\)-dimensional space with \(D\) hyperplanes 
+is \(\sum_{j=0}^{D_i} \binom{D}{j} \). 
+What is the maximum number of regions if we add two more hidden 
+units to this model so \(D\) = 5?
+
+\end{document}  

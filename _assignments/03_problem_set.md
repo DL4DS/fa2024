@@ -1,7 +1,9 @@
 ---
 type: assignment
-date: 2024-09-11T15:00-0500
+date: 2024-09-11T09:00-0500
 title: Problem Set 3
+pdf: /static_files/assignments/ps3.pdf
+latex: /static_files/assignments/ps3.tex
 hide_from_announcments: true
 due_event: 
     type: due
