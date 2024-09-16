@@ -11,4 +11,5 @@ links:
       name: slides
 ---
 **Readings:**
+- ["Deep Learning" by Yann LeCun, Yoshua Bengio and Geoffrey Hinton](https://www.nature.com/articles/nature14539) (use BU institutional login to access)
 - Understanding Deep Learning, Chapter 1
