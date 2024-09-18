@@ -1,0 +1,55 @@
+\documentclass[11pt, oneside]{article}   	% use "amsart" instead of "article" for AMSLaTeX format
+\usepackage{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   		% ... or a4paper or a5paper or ... 
+%\geometry{landscape}                		% Activate for rotated page geometry
+\usepackage[parfill]{parskip}    	% Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
+								% TeX will automatically convert eps --> pdf in pdflatex		
+\usepackage{amssymb}
+\usepackage{amsmath}
+
+%SetFonts
+
+%SetFonts
+
+
+\title{Problem Set 5 -- Loss Functions}
+\author{DS 542 -- DL4DS}
+\date{Fall, 2024}							% Activate to display a given date or no date
+
+\begin{document}
+%\vspace*{-20pt}
+\maketitle
+
+The following problems assume a data set with one input $x$ and one output $y$.
+The input $x$ is a binary variable only taking on values zero and one, and $Pr(y|x=i)$ is normally distributed with mean $\mu_i$ and standard deviation $\sigma_i$.
+In the training data, $Pr(x=1) = p$.
+Both the $\mu_i$'s and $\sigma_i$'s are unknown.
+
+\textbf{Problem 1}
+If we model this distribution as $y = \phi_0 + \phi_1 x$ and choose the $L_2$ loss function, what is the loss function $L[]$ as parameterized by $\phi_0$, $\phi_1$, and $p$?
+
+\vspace{1cm}
+
+\textbf{Problem 2}
+
+What are the gradients of the loss loss function $L[]$ with respect to $\phi_0$ and $\phi_1$?
+Assume the data set is large enough that the analytical solution is accurate (i.e. ignore statistical variations not explicitly modeled).
+
+\vspace{1cm}
+
+\textbf{Problem 3}
+
+If you train this model with gradient descent to the global minimum loss, what will the final values of parameters $\phi_0$ and $\phi_1$ be?
+Write your answer in terms of the $\mu_i$'s and $\sigma_i$'s and $p$.
+Again, assume the data	set is large enough that the analytical	solution is accurate.
+
+\vspace{1cm}
+
+\textbf{Problem 4}
+
+Are there any values of $\phi_0$ and $\phi_1$ where gradient descent could get stuck?
+That is, are there any parameter choices where the gradients become zero, but they are not at the global minimum?
+
+
+\end{document}  
