@@ -9,6 +9,6 @@ due_event:
     date: 2024-10-09T23:59:00-5:00
     description: 'Notebook 9 due'
 ---
-Notebook 9 -- Regularization.
+Notebook 9.
 Turn in on GradeScope.
 
