@@ -7,5 +7,5 @@ hide_from_announcments: true
 links: []
 ---
 **Readings:**
-- TBD
+- [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
 
