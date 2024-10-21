@@ -9,10 +9,12 @@ permalink: /project/
 * [Project Topics](#project-topics)
   * [Project Ideas](#project-ideas)
 * [Project Deliverables](#project-deliverables)
-  * [Proposal -- Feb 16](#proposal)
-  * [Midpoint Checkin -- Mar 29](#mid-project-checkin)
-  * [Final Report -- Apr 30](#final-report-and-presentation)
-  * [Video -- Apr 30](#video)
+  * [Initial Proposal -- Oct 28](#proposal)
+  * [Final Proposal -- Nov 4](#proposal)
+  * [Midpoint Checkin -- Nov 20](#mid-project-checkin)
+  * [Final Report -- Dec 6](#final-report-and-presentation)
+  * [Video -- Dec 6](#video)
+  * [Presentation -- Dec 9](#final-report-and-presentation)
   * [Project Code Repository](#project-code-repository)
 
 Here's your chance to apply the deep learning techniques you learn in this 
@@ -79,7 +81,7 @@ There are places you can look to help give you ideas:
 1. Application workshops at major conferences can be good sources of ideas. Often
    times they are associated with new and interesting datasets. Some potential
    conferences include: 
-    1. [NeurIps](https://nips.cc/),
+    1. [NeurIps](https://neurips.cc/),
     2. [CVPR](https://cvpr.thecvf.com/),
     3. [ICML](https://icml.cc/),
     4. [ICMLA](https://www.icmla-conference.org/),
@@ -120,7 +122,7 @@ In case it is helpful, here are some project ideas you can also consider:
 * **CDS Curriculum AI Assistant** *(LLM-based Assistant)*
    * Build an LLM-based assistant that could help students navigate the CDS curriculum with tasks such as helping to
      choose electives based on students' interests and priorities.
-   * Possibly provide feedbac to CDS administration in a privacy preserving way.
+   * Possibly provide feedback to CDS administration in a privacy preserving way.
 * **CDS Building Recycling Advisor** *(Computer Vision)*
    * A computer vision based system that directs a person as to which bin an item should be placed.
    * Establish baselines on waste/recycle streams, contamination rates so that if/when prototypes are deployed one
@@ -166,10 +168,11 @@ Of course you can pursue any other ideas you have as well!
 
 
 ### Proposal
-**Deadline:** February 16, Friday 11:59 PM
+* **Draft Deadline:** Monday, October 28 @ 11:59 PM
+* **Final Deadline:** Monday, November 4 @ 11:59 PM
 
-Here's a proposal template [pdf](/sp2024/static_files/project/proj_prop.pdf) and the source
-[$$\LaTeX$$](/sp2024/static_files/project/proj_prop.tex).
+Here's a proposal template [pdf](/static_files/project/proj_prop.pdf) and the source
+[$$\LaTeX$$](/static_files/project/proj_prop.tex).
 
 The proposal format is:
 * **Project Title**
@@ -197,13 +200,13 @@ extension for [Visual Studio Code](https://code.visualstudio.com/).
 
 
 ### Mid-Point Check-In
-**Deadline:** March 31, Sunday 11:59 PM
+**Deadline:** Wednesday, November 20 @ 11:59 PM
 
 Prepare an update on your project status.
 
 For the format, update your project proposal with the additional information you have learned since making the proposal.
 
-If you didn't previously use the [LaTeX template](https://dl4ds.github.io/sp2024/static_files/project/proj_prop.tex),
+If you didn't previously use the [LaTeX template](/static_files/project/proj_prop.tex),
 we highly recommend you do, and make sure you have content for each of the sections. Feel free to revise any content
 from your original proposal to make the update more coherent.
 
@@ -220,8 +223,8 @@ You don't necessarily have to cover all these items completely (hence the word "
 
 
 ### Final Report and Presentation
-**Deadline:** April 30, Tuesday 11:59 PM, with a late deadline (with no penalty)
-of May 7, 11:59 PM.
+
+* **Report Deadline:** Friday, December 6 @ 11:59 PM
 
 Here's the project report template [pdf](/static_files/project/project_report.pdf) and the source
 [$$\LaTeX$$](/static_files/project/project_report.tex).
@@ -239,7 +242,7 @@ The report should include:
 * **References**
 
 ### Video
-**Deadline:** April 30, Tuesday 11:59 PM
+**Deadline:** Friday, December 6 @ 11:59 PM
 
 Create a 3-4 minute video (no more than 4 minutes) that describe your
 project. Generally, the video should include:
@@ -249,7 +252,7 @@ project. Generally, the video should include:
 4. Show the results and how evaluated
 
 When complete, upload your video to the BU MyMedia [channel for this semester's
-projects](https://mymedia.bu.edu/channel/channelid/340650712).
+projects](https://mymedia.bu.edu/channel/channelid/360389522).
 
 To make your screen recordings, one free and easy option is to use Kaltura
 Capture, which is integrated with BU's MyMedia streaming media solution.
