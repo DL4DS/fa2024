@@ -28,7 +28,7 @@ class to real world applications.
 Choose a project that aligns with your interests and utilizes deep learning
 as part of the solution.
 
-You may pick one of the three following categoies of projects.
+You may pick one of the three following categories of projects.
 
 - **Application Project:** We expect most students will pick this category. Pick a
   problem or application that interests you. Consider whether there are suitable
@@ -163,6 +163,10 @@ In case it is helpful, here are some project ideas you can also consider:
 * _more to come_
 
 Of course you can pursue any other ideas you have as well!
+
+### Previous Projects
+
+* [Spring 2024](https://mymedia.bu.edu/channel/channelid/340650712)
 
 ## Project Deliverables
 
