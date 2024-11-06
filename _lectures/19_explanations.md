@@ -1,10 +1,12 @@
 ---
 type: lecture
 date: 2024-11-06
-title: Generative Adversarial Networks
+title: Explanations
 thumbnail: /_images/thumbnails/ds542-lecture-02.png
 hide_from_announcments: true
-links: []
+links:
+  - url: /static_files/lectures/19_explanations.pdf
+    name: slides
 ---
 **Readings:**
-- Understanding Deep Learning, Chapter 15
+- Many links in the slides
