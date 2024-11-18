@@ -1,6 +1,6 @@
 ---
 type: discussion
-date: 2024-09-29T15:35-0500
+date: 2024-10-21T15:35-0500
 title: Discussion_05 -  RNNs, LSTMs
 tldr: ""
 thumbnail: /_images/thumbnails/ds598-disc-02.png
