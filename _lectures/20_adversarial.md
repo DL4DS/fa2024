@@ -8,4 +8,6 @@ links:
   - url: /static_files/lectures/20_adversarial.pdf
     name: slides
 ---
-Many paper links in the slides
+**Readings:**
+- Understanding Deep Learning, Chapter 15
+- Many paper links in the slides
