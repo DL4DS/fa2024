@@ -8,3 +8,4 @@ links: []
 ---
 **Readings:**
 - Understanding Deep Learning, Chapter 18
+- [What are Diffusion Models?](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/)
