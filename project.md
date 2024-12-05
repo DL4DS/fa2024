@@ -255,8 +255,9 @@ project. Generally, the video should include:
 3. Provide the approach taken, models and methods used
 4. Show the results and how evaluated
 
-When complete, upload your video to the BU MyMedia [channel for this semester's
-projects](https://mymedia.bu.edu/channel/channelid/360389522).
+~~When complete, upload your video to the BU MyMedia [channel for this semester's
+projects](https://mymedia.bu.edu/channel/channelid/360389522).~~
+**Update 12/5:** Please include your video in your GitHub repository instead.
 
 To make your screen recordings, one free and easy option is to use Kaltura
 Capture, which is integrated with BU's MyMedia streaming media solution.
@@ -268,5 +269,7 @@ including how to download the app.
 
 As part of your final project, you should have your project code checked into 
 a github repo and include the link to your project repo in your report. 
+
+**Update 12/5:** Make your project public or add me (jconsidi) as a member with read-only access.
 
 The repo should be documented enough so that someone can reproduce your work.
